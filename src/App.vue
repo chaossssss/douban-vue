@@ -11,6 +11,7 @@
         </keep-alive>
         <router-view transition="fade" transition-mode="out-in"></router-view>
       </div>
+      <movieTypes v-if="$route.path === '/'"></movieTypes>
     </div>
   </div>
 </template>
@@ -20,6 +21,7 @@ import appHeader from './component/header.vue'
 import movieShowing from './component/movie_showing.vue'
 import movieSubject from './component/movie_subject.vue'
 import movieLatest from './component/movie_latest.vue'
+import movieTypes from './component/movie_types.vue'
 export default {
   name: 'app',
   data () {
@@ -27,7 +29,7 @@ export default {
       msg: 'Welcome to Your Vue.js App'
     }
   },
-  components: { appHeader,movieShowing,movieSubject,movieLatest }
+  components: { appHeader,movieShowing,movieSubject,movieLatest,movieTypes }
 }
 </script>
 
