@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="movie-subject">
 <h1 class="title">{{movieSubject.title}}</h1>
 <p>{{movieSubject.durations}}</p>
 <section class="subject-info">
@@ -71,5 +71,7 @@ export default {
 }		
 </script>
 <style type="text/css" scoped>
-	
+	.movie-subject{
+    margin: 0 18px;
+  }
 </style>
