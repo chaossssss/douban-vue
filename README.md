@@ -5,8 +5,7 @@
 在线地址:https://chaossssss.github.io/
 
 扫码访问
-![Image text](https://github.com/chaossssss/douban-vue/blob/master/qrcode/db.png)
-<img width="220" height="220" src="https://github.com/chaossssss/douban-vue/blob/master/qrcode/db.png" alt="扫我😄">
+<img width="200" height="200" src="https://github.com/chaossssss/douban-vue/blob/master/qrcode/db.png" alt="扫我😄">
 
 
 ## Build Setup
