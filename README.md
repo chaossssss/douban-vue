@@ -1,6 +1,12 @@
 # douban-vue
 
-> A Vue.js project
+> vue开发的豆瓣电影
+
+在线地址:https://chaossssss.github.io/
+
+扫码访问
+![Image text](https://github.com/chaossssss/douban-vue/blob/master/qrcode/db.png)
+
 
 ## Build Setup
 
@@ -35,4 +41,4 @@ For detailed explanation on how things work, consult the [docs for vue-loader](h
 5.没用到gulp和webpack组合开发，相关配置教程不尽相同，感觉有一定难度
 
 
-在线地址:https://chaossssss.github.io/
+
